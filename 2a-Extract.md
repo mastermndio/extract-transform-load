@@ -44,7 +44,10 @@ As a developer of the Crytpo Historical Data Parser, I need to be able to ingest
 ### Acceptance Criteria
 - [ ] The csv-parser library is removed from your code
 - [ ] A csv can be read into your code and turned into an Array of Javasctipt Objects using the csv-load-sync library
-
+- [ ] The following csv's are loaded into the application:
+1. [Bitcoin](./coin_Bitcoin.csv)
+2. [Dogecoin](./coin_Dogecoin.csv)
+3. [Ethereum](./coin_Ethereum.csv)
 
 ## Bonus Learning
 
