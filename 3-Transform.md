@@ -33,16 +33,16 @@ Create a function that takes in our original array of object and returns a new a
 We need to trim down some of the data before cleaning validating and processing it as future dataset will be very large. The input dataset has the following fields:
 ``` json
  {
-    "SNo": '16',
-    "Name": 'Dogecoin',
-    "Symbol": 'DOGE',
-    "Date": '2013-12-31 23:59:59',
-    "High": '0.0004656940000131726',
-    "Low": '0.0004076710029039532',
-    "Open": '0.00041817600140348077',
-    "Close": '0.00042224599746987224',
-    "Volume": '273400.0',
-    "Marketcap": '7689658.67317'
+    "SNo": "16",
+    "Name": "Dogecoin",
+    "Symbol": "DOGE",
+    "Date": "2013-12-31 23:59:59",
+    "High": "0.0004656940000131726",
+    "Low": "0.0004076710029039532",
+    "Open": "0.00041817600140348077",
+    "Close": "0.00042224599746987224",
+    "Volume": "273400.0",
+    "Marketcap": "7689658.67317"
   }
 ```
 
@@ -50,12 +50,12 @@ We need to trim down some of the data before cleaning validating and processing 
 Data looks like this:
 ```json
  {
-    SNo: '16',
-    Symbol: 'DOGE',
-    Date: '2013-12-31 23:59:59',
-    High: '0.0004656940000131726',
-    Low: '0.0004076710029039532',
-    Marketcap: '7689658.67317'
+    "SNo": "16",
+    "Symbol": "DOGE",
+    "Date": "2013-12-31 23:59:59",
+    "High": "0.0004656940000131726",
+    "Low": "0.0004076710029039532",
+    "Marketcap": "7689658.67317"
   }
 ```
 
